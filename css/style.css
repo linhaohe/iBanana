@@ -1,0 +1,85 @@
+.hlink:link{
+    text-decoration: none;
+}
+
+.hlink:hover{
+    text-decoration: underline;
+}
+
+h1{
+    font-family:sans-serif;
+    size: 3rem;
+    line-height: 1.5;
+}
+
+.container-fluid{
+    padding: 3% 15%;
+}
+
+@media screen and (min-width:1000px) {
+    h1{
+        padding-top: 30%;
+    }
+    .center_img{
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+.wifi:hover{
+    background-image: url(../assets/wifiFilled.png);
+}
+
+.edible:hover{
+    background-image: url(../assets/eatableFilled.png);
+}
+
+.circuit:hover{
+    background-image: url(../assets//circuitFilled.png);
+}
+
+button{
+    min-width: 10rem;
+}
+
+.section1{
+    text-align: center;
+    background-color: #f8b3c3;
+}
+
+.bodyimg{
+    width: 75%;
+    height: auto;
+}
+
+.img_container{
+    object-fit: contain;
+}
+
+.banana1{
+    padding-top: 3rem;
+    line-height: 1;
+}
+
+.section2{
+    text-align: center;
+    height: 100%;
+    padding-bottom: 2rem;
+}
+
+.section3{
+    height: 10rem;
+    background-color: #a58faa ;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.social{
+    height: 25px;
+    width: 25px;
+}
+
+.Chocolate{
+    width: 100%;
+    height: auto;
+}
